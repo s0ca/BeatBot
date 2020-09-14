@@ -592,7 +592,7 @@ async def help(ctx):
     help_e.add_field(name='!connard', value=f"Invoque le Bot (peu se conduire comme un con)\n```css\n!connard```", inline=False)
     help_e.add_field(name='!whois', value=f"Affiche les infos utilisateur\nPrend le pseudo en parametre\npour afficher les infos d'un autre membre ```css\n!whois @pseudo```", inline=False)
     help_e.add_field(name='!hello', value=f"Salut {author}\n```css\n!hello```",inline=False)
-    help_e.add_field(name='COMMANDES MULTIMEDIA', value=f"-Play ```css\n!play YT/BC/SC/'strings'```\n-Pause ```css\n!pause```\n-Reprendre ```css\n!resume```\n-Suivant ```css\n!next```\n-Stop ```css\n!stop```\n-Monter/Baisser le volume ```css\n!vol int [0-100]```\n-Looper la lecture ```css\n!loop```\n-Demander la lecture en cours ```css\n!now```\n-Montrer le contenu de la playlist ```css\n!list```\n-Supprimer une track ```css\n!rm int [track index]```\n-Supprimer le dernier morceau ajouté ```css\n!rml```\n-Mélanger la liste de lecture```css\n !shuffle```\n-Lancer les custom playlist```css\n !pl1/2/3```",inline=True)
+    help_e.add_field(name='COMMANDES MULTIMEDIA', value=f"-Play ```css\n!play YT/BC/SC/'strings'```\n-Pause ```css\n!pause```\n-Reprendre ```css\n!resume```\n-Suivant ```css\n!next```\n-Stop ```css\n!stop```\n-Monter/Baisser le volume ```css\n!vol int [0-100]```\n-Looper la lecture ```css\n!loop```\n-Demander la lecture en cours ```css\n!now```\n-Montrer le contenu de la playlist ```css\n!list```\n-Supprimer une track ```css\n!rm int [track index]```\n-Supprimer le dernier morceau ajouté ```css\n!rml```\n-Mélanger la liste de lecture```css\n !shuffle```\n-Lancer les custom playlist```css\n !pl1 / !pl2 / !pl3```",inline=True)
     help_e.set_footer(text='BeatBot Beta 1.0.6')
     await ctx.send(embed=help_e)
 
