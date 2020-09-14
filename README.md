@@ -6,7 +6,12 @@ BeatBot est un bot musical pour Discord
 
 ```py
 - pip3 install -U discord.py pynacl youtube-dl python-dotenv
-- Editer le fichier .env avec vos infos (app token / guild id) 
+- Créer et editer le fichier .env avec vos infos (app token / guild id)
+  exemple : 
+  # .env
+    DISCORD_TOKEN=BOT_TOKEN
+    DISCORD_GUILD=GUILD_ID
+  
 - Installer FFMPEG et l'ajouter aux variables d’environnement
 - python3 ./bot.py
 ```
