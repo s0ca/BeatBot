@@ -405,8 +405,8 @@ class Music(commands.Cog):
         else:
             await ctx.send('Tu as déjà voté')
 
-    #COMMANDE PLAYLIST
-    @commands.command(name='queue', aliases=['list','playlist','ll','ls'])
+    #COMMANDE LIST
+    @commands.command(name='queue', aliases=['list','ll','ls'])
     async def _queue(self, ctx: commands.Context, *, page: int = 1):
 
         if len(ctx.voice_state.songs) == 0:
@@ -492,7 +492,7 @@ class Music(commands.Cog):
                 await ctx.message.add_reaction('💾')
                 await bot.change_presence(status=discord.Status.online, activity=discord.Game("🎶!help🎹!now🎶")) #Change le status du bot
 
-    #COMMANDE PLAYLISTE
+    #COMMANDE PLAYLIST
     #Lecture d'un fichier et envoi d'un message par ligne
     @commands.command(name='pl1')
     async def pl1(self, ctx: commands.Context):
