@@ -85,6 +85,10 @@ CC-BY-SA
 
 ### TODO : 
 ```md-
+- Lister les differents fichiers de playlist comme la commande ll (ou pas)
+
+- Mettre à jour "!help"
+
 - Faire en sorte qu'on ne soit pas obligé d'être dans un canal vocale pour lancer les commandes multimedia
 
 - Refactorisation (partitionner en cogs)
